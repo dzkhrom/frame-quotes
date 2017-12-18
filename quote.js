@@ -33,8 +33,14 @@ const etiketRules = [
 ];
 
 const nextQuote = () => {
+  
   selectedIndex += 1;
-  changeQuote(selectedIndex);
+      if (selectedIndex > etiketRules.length-1) {
+	  selectedIndex = 0;
+  }
+   changeQuote(selectedIndex);
+   
+   
 };
 
 const changeQuote = selectedIndex => {
