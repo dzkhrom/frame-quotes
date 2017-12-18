@@ -82,6 +82,13 @@ h2 {
   text-decoration: none;
   padding: 10px 0;
   margin-left: -180px;
-  left: 50%;
+  left: 48.8%;
   text-transform: uppercase;
+}
+.source{
+  font-size: 2em;
+  text-align: center;
+}
+.source a{
+	color: #07153D;
 }
